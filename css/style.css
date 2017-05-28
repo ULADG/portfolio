@@ -56,3 +56,8 @@ a {
 /* 
 *Main nav styles - STOP
 */
+#header-background {
+	display:inline-block;
+	height: auto;
+	width: auto;
+}
