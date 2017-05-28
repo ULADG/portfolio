@@ -23,15 +23,20 @@ body {
 #main-nav ul {
 	margin: 0;
 		text-align: right;
+	
 }
 
 #main-nav ul li {
 	display: inline-block;
+	padding: 25px;
 }
 #main-nav ul li a {
-	display: inline-block;
-	text-decoration: no;
-	padding: 25px;}
+	
+	text-decoration: none;
+	color: #1ac056;
+	font-weight: 300;
+	text-transform: lowercase;
+	}
 	
 
 /* Main nav styles - STOP
