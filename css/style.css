@@ -15,9 +15,14 @@ body {
 a {
 	transition: all .3s;
 }
+span {
+	color: #1ac056;
+}
 /* 
 *general styles - STOP 
 */
+
+
 
 
 
@@ -51,13 +56,45 @@ a {
 	color:  #291f1a;
 	
 	}
+#header-background {
+	
+}
 	
 
 /* 
 *Main nav styles - STOP
 */
-#header-background {
-	display:inline-block;
-	height: auto;
-	width: auto;
+
+/* 
+*Main header styles - START 
+*/
+#main-header {
+	background-image: url(../img/header-background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	position: relative;
+	
 }
+#main-header .header-caption {
+	color: #fff;
+	font-family: 'Roboto',sans-serif;
+	position: absolute;
+	text-align: center;
+	
+	left: 0;
+	right: 0;
+	
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+
+
+
+/* 
+*Main header stylesstyles - STOP 
+*/
+
+
