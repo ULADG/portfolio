@@ -210,6 +210,47 @@ text-align: center;
 	position: relative;
 	
 }
+
+#portfolio .portfolio-items .portfolio-item .item-mask {
+	background-color: rgba(42, 61, 79, 0.8);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	position: absolute;
+	font-size: initial;
+}
+#portfolio .portfolio-items .portfolio-item .item-mask:hover {
+opacity: 1;
+}
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content {
+	height: 330px;
+	border: 1px solid #fff;
+	margin: 10px;
+	position: relative;
+	
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	right: 0;
+	left: 0;
+	padding: 5px;
+	
+	
+}
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a {
+	color: #fff;
+	
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover {
+	color: #1ac056;
+	
+}
 /* section Portfolio style start */
 
 
