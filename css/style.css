@@ -49,6 +49,10 @@ section {
 	z-index: 10; 
 	width: 100%;
 }
+
+#main-nav .toggle, #drop {
+	display: none;
+}
 #main-nav ul {
 	margin: 0;
 		text-align: right;
@@ -281,7 +285,7 @@ opacity: 1;
 	
 }
 #contact .contact-data address a {
-	color: #1ac085;
+	color: #fff;
 }
 	
 #contact .contact-data .contact-social-icons a {
