@@ -166,6 +166,16 @@ section {
 #skills > p {
 	text-align: : center;
 }
+#skills div#skills-icons {
+text-align: center;
+}
+#skills #skills-icons figure {
+	display: inline-block;
+	
+}
+#skills #skills-icons figure img {
+	margin-bottom: 15px;
+}
 /* section skills styles stops */
 
 
