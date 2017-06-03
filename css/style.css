@@ -137,10 +137,6 @@ section {
 	box-shadow: 0px 2px 2px 0px
 		rgba(0,0,0,0.75);
 }
-#about::after {
-	float: clear;
-	content: '';
-}
 
 #about figure {
 	margin: 0;
@@ -170,7 +166,7 @@ section {
 		rgba(0,0,0,0.75);
 }
 #skills > p {
-	text-align: : center;
+	text-align: center;
 }
 #skills div#skills-icons {
 text-align: center;
@@ -183,6 +179,8 @@ text-align: center;
 	margin-bottom: 15px;
 }
 /* section skills styles stops */
+
+/* section Portfolio style start */
 
 #portfolio #portfolio-item-1 {
 	background-image: url(../img/portfolio1.jpg);
@@ -251,10 +249,105 @@ opacity: 1;
 	color: #1ac056;
 	
 }
-/* section Portfolio style start */
+
 
 
 
 /* section Portfolio style stop */
+/* section contact styles start */
+
+#contact {
+	background-color: #213b50;
+	color: #fff;
+	overflow: hidden;
+	
+}
+
+#contact .contact-data {
+	width: 50%;
+	float: left;
+	
+	
+}
+#contact .contact-data h2 {
+	text-align: left;
+	font-size: 30px;
+}
+
+#contact .contact-data address {
+	font-style: normal;
+	margin: 50px 0;
+	line-height: 25px;
+	
+}
+#contact .contact-data address a {
+	color: #1ac085;
+}
+	
+#contact .contact-data .contact-social-icons a {
+	display: inline-block;
+	border: 1px solid #fff;
+	color: #fff;
+	height: 38px;
+	width: 38px;
+	text-align: center;
+	line-height: 38px;
+	margin-right: 30px;
+	font-size: 22px;
+}
+#contact .contact-data .contact-social-icons a:hover {
+	
+	color: #213b50;
+	border: 1px solid #213b50;
+	background-color: #fff;
+}
+
+#contact .contact-form {
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+}
+
+#contact .contact-form form input,
+
+#contact .contact-form form textaera {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: #2b4a64;
+	border: #2b4a64 0px;
+	color: #fff;
+}
+
+#contact .contact-form form input:focus,
+#contact .contact-form form textaera:focus {
+	background-color: #1ac056;
+	
+}
+#contact .contact-form form input[type="submit"] {
+	background-color: #1ac056;
+color: #fff;
+	width: auto;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 15px 30px;
+	float: right;
+	border: 1px #fff solid;
+}
+#contact .contact-form form input[type="submit"]:hover {
+	background-color: #fff;
+	color: #1ac056;
+	cursor: pointer;
+}
+footer {
+	background-color: #142634;
+	color: #fff;
+	padding: 0 80px;
+	
+}
+footer p {
+	margin: 0;
+}
+/* section contact styles stop*/
 
 
