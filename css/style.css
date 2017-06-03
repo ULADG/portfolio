@@ -159,8 +159,13 @@ section {
 	font-weight: 300;
 	line-height: 24px;
 	text-align: left;
+}
 	
 
-
+/* section skills styles starts */
+#skills > p {
+	text-align: : center;
+}
+/* section skills styles stops */
 
 
